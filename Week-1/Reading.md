@@ -276,7 +276,7 @@ Dividing by constants|a = b|a$\div$ c=b$\div$ c|
 Inverse of adding|a = b + c|a - c = b|
 Inverse of subtracting|a = b - c|a + c = b|
 Inverse of multiplying|a = b$\cdot$ c|a$\div$ c = b|
-Inverse of dividing|a = b$\div$ c|a$\cdot$ c = b|
+Inverse of dividing|a = b $\div$ c|a$\cdot$ c = b|
 
 We can use these rules to find the value of a variable in an equation.
 In the equation
