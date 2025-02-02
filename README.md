@@ -16,6 +16,8 @@ Welcome to the KF Python Course
 
 ## Introduction
 
+Begginers programming course going over the fundamental logic of programming, the tools that python offers for scientists and some special topics of importance with regards to efficiency, advanced understanding of python & current topics in programming.
+
 ## Course Contents
 
 ### Programming Foundations(~1 Month)
@@ -28,6 +30,7 @@ Welcome to the KF Python Course
 - [Chapter 6: Conditionals](#chapter6)
 - [Chapter 7: Loops](#chapter7)
 - [Chapter 8: Functions & Recursions](#chapter7)
+- Exam 1
 
 ### Python Tools and Scientific Libraries(~1 Month)
 
@@ -37,6 +40,7 @@ Welcome to the KF Python Course
 - [Chapter 12: Matplotlib-Graph Plotting](#chapter12)
 - [Chapter 13: Pandas-Data Science](#chapter13)
 - [Chapter 14: Numpy & Scipy-Numerical Computing](#chapter14)
+- Exam 2
 
 ### Special Topics(~1 Month)
 
@@ -45,7 +49,16 @@ Welcome to the KF Python Course
 - [Chapter 17: AI Tools & Programming](#chapter17)
 - [Chapter 18: Introduction to Data Structures & Algorithms](#chapter18)
 - [Chapter 19: Concurrency and Parallelism](#chapter19)
-- [Chapter 20: Student Choice](#chapter10)
+- [Chapter 20: Student Choice](#chapter20)
+- Final Exam
+
+#### Student Choice
+
+- Machine Learning in Python
+- ChemInformatics in Python
+- Web Development in Python
+- Computational Photography in Python   
+- Something else ?
 
 ## Problem Sets
 
@@ -61,5 +74,7 @@ Three exams, one after each module ends.
 
 ## External Material
 
-- [Python Tutorial - W3 School](#https://www.w3schools.com/python/default.asp)
-- [Python Tutorial - Geeks for Geeks](#https://www.geeksforgeeks.org/python-programming-language-tutorial/?ref=shm)
+- [Python Tutorial - W3 School](https://www.w3schools.com/python/default.asp)
+- [Python Tutorial - Geeks for Geeks](https://www.geeksforgeeks.org/python-programming-language-tutorial/?ref=shm)
+- [(Youtube)Python Tutorial for Beginners - Corey Schafer](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7)
+- [(Youtube)4h Python - Full Course for Beginners](https://www.youtube.com/watch?v=rfscVS0vtbw)
