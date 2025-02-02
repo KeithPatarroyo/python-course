@@ -101,10 +101,10 @@ There are a number of rules to combine fractions.
 
 Rule |Example|
 :- |:-
-Addition|$\frac{a}{c}~$+$~\frac{b}{c}~$=$~\frac{a~+~b}{c}$|
-Subtraction|$\frac{a}{c}~$-$~\frac{b}{c}~$=$~\frac{a~-~b}{c}$|
-Multiplication|$\frac{a}{c}~$$\cdot$$~\frac{b}{c}~$=$\frac{a~\cdot~b}{c}$|
-Division|$\frac{a}{b}~$$\div$$~\frac{c}{d}~$=$\frac{a}{b}~$$\cdot$$~\frac{d}{c}~$|
+Addition|$\frac{a}{c}+\frac{b}{c}=\frac{a~+~b}{c}$|
+Subtraction|$\frac{a}{c}-\frac{b}{c}=\frac{a-b}{c}$|
+Multiplication|$\frac{a}{c}\cdot\frac{b}{c}=\frac{a\cdot b}{c}$|
+Division|$\frac{a}{b}\div\frac{c}{d}=\frac{a}{b}\cdot\frac{d}{c}~$|
 
 <a id="Factoring"></a>
 ## Factoring
