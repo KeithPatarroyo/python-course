@@ -69,7 +69,7 @@ This shows the relationships between the types.
 ## Operations on numbers
 Kotlin allows the expected basic operations on numbers: Addition, Subtraction, Multiplication, Division, and Negation.
 Kotlin also supports the Modulo operation which gives the remainder of a division, after one number is divided by another. 
-These operations use slightly different symbols in a program, for example because multiplying using `x` can be confused with the letter x, and trying to multiply using '$\cdot$' is impossible because that is not a keyboard symbol. 
+These operations use slightly different symbols in a program, for example because multiplying using `x` can be confused with the letter x, and trying to multiply using ' $\cdot$ ' is impossible because that is not a keyboard symbol. 
 For example, `8 % 3` is 2 as shown here.
 
 <img src="https://raw.githubusercontent.com/kushnertodd/CFTM-intro-to-python/af686fa42bcc496cc70d56ba96b61afb75960a77/notebooks/Basic-math-modulo.png" width="200" height="200"/>
@@ -175,14 +175,14 @@ That fact will be used in the [Hindu number system](./Number-systems.ipynb#Posit
 This is a list of all exponent rules.
 Rule|Formula
 |:- |:-
-Product |$ a^m \cdot a^n~$=$~a^{m + n}$  
-Quotient |$a^m$$\div$$a^n~$=$~a^{m - n}$  
-Power of a Power |$(a^m)^n~$=$~a^{mn}$  
-Power of a Product |$(ab)^m~$=$~a^m$$\cdot$$b^m$  
-Power of a Quotient |$(\frac{a}{b})^m~$=$~\frac{a^m}{b^m}$  
-Zero Exponent |$a^0~$=$~1$  
-Negative Exponent |$a^{-1}~$=$~\frac{1}{a^m}$  
-Fractional Exponent |$a^{\frac{m}{n}}~$=$~\sqrt[n]{a^m}$  
+Product |$ a^m \cdot a^n=a^{m + n}$  
+Quotient |$a^m$$\div$$a^n=a^{m - n}$  
+Power of a Power |$(a^m)^n=a^{mn}$  
+Power of a Product |$(ab)^m=a^m$$\cdot$$b^m$  
+Power of a Quotient |$(\frac{a}{b})^m=\frac{a^m}{b^m}$  
+Zero Exponent |$a^0=1$  
+Negative Exponent |$a^{-1}=\frac{1}{a^m}$  
+Fractional Exponent |$a^{\frac{m}{n}}=\sqrt[n]{a^m}$  
 
 ### Roots
 The square *root* of a number `n` is the number which if multplied by itself will be `n`.  
