@@ -209,3 +209,108 @@ Logarithms are another convenient way to represent large numbers. For `N` = 1000
 
 $log_{10} N = log_{10} 1000000 = log_{10}\> 10^6 = 6$
 
+### Algebra
+Algebra finds unknown values using mathematical expressions.
+
+[Variables](#Variables)  
+[Substitution rule](#Substitution-rule)  
+[Expressions](#Expressions)  
+[Equations](#Equations)  
+
+<a id="Variables"></a>
+#### Variables
+Variables are symbols for unknown values.
+We can say the variable a has the value 1.
+
+<a id="Substitution-rule"></a>
+#### Substitution rule
+Variables have the rule that they can be substituted by their value in any expresion.
+If the value of a is 1, we can say the expression
+
+a + 2
+
+is the same as
+
+1 + 2
+
+<a id="Expressions"></a>
+#### Expressions
+Expressions are combinations of variables, values, and operators that give other values. 
+An example of an expression is
+
+a + (b $\cdot$ 4 - 1)
+
+<a id="Equations"></a>
+#### Equations
+Equations say that two expressions separated by an equals sign = have the same value.
+We can say that the variable a has the value 1 with the equation
+
+a = 1
+
+There are a number of rules for equations.
+
+Rule |Example|Note
+:- |:- |:-
+Commutative|a$~$+$~$b$~$=$~$b$~$+$~$a|For addition
+Commutative|a$~\cdot~$b$~$=$~$b$~\cdot~$a|For multiplication
+Association|a$~+~$(b$~+~$c)$~$=$~$(a$~$+$~$b)$~$+$~$c|For addition
+Association|a$~\cdot~$(b$~\cdot~$c)$~$=$~$(a$~\cdot~$b)$~\cdot~$c|For multiplication
+Identity|a + 0 = a|for addition
+Identity|a - 0 = a|for subtraction
+Identity|a - a = 0|for subtraction
+Identity|-a + a = 0|for subtraction
+Identity|a$~\cdot~$1 = a|for multiplication
+Identity|a$~\div~$1 = a|for division
+Identity|a$~\div~$a = 1|for division
+
+Note that the Commutative and Association rules do not apply for substraction and division.
+
+These are rules for changing equations.
+
+Rule| If |Then
+:- |:- |:-
+Adding constants|a = b|a + c = b + c|
+Subtracting constants|a = b|a - c = b - c|
+Multiplying by constants|a = b|a$~\cdot~$c$~$=$~$b$~\cdot~$c|
+Dividing by constants|a = b|a$~\div~$c$~$=$~$b$~\div~$c|
+Inverse of adding|a = b + c|a - c = b|
+Inverse of subtracting|a = b - c|a + c = b|
+Inverse of multiplying|a = b$~\cdot~$c|a$~\div~$c = b|
+Inverse of dividing|a = b$~\div~$c|a$~\cdot~$c = b|
+
+We can use these rules to find the value of a variable in an equation.
+In the equation
+
+a - 2 = 1
+
+We can change the equation to solve for a.
+
+Equation|Rule
+:- |:-
+a - 2 + 2 = 1 + 2|Adding constant 2  
+a - 0 = 2|Identity for subtraction (-2 + 2 = 0)
+a = 2|Identity for subtraction
+
+We can solve for equations with two variables.
+If we have
+
+b - 1 = 2  
+a + b - 1 = 6  
+
+We can use these rules to solve for a and b.
+
+Equation|Rule
+:- |:-
+a + 2 = 6|Substitution (2 for b - 1)  
+a = 6 - 2|Inverse of adding
+a = 4|
+
+Then we have
+
+Equation|Rule
+:- |:-
+4 + b - 1 = 6|Substitution
+b + 3 = 6|Subtraction
+b + 3 - 3 = 6 - 3|Subtracting constant 3
+b + 0 = 3|Identity for subtraction
+b = 3|Identity for addition
