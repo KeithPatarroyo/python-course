@@ -84,7 +84,7 @@ Parentheses, `(` and `)`, are used to change the operation order.
 |Negation |`-` |`-` |highest |
 |Multiplication |`x` or $\cdot$ |* |next highest | 
 |Division |$\div$ |`/` |next highest | 
-|Modulo |`%` |* |next highest | 
+|Modulo |`%` |`%` |next highest | 
 |Addition |`+` |`+` |lowest |
 |Subtraction |`-` |`-` |lowest |
 
@@ -314,3 +314,242 @@ b + 3 = 6|Subtraction
 b + 3 - 3 = 6 - 3|Subtracting constant 3
 b + 0 = 3|Identity for subtraction
 b = 3|Identity for addition
+
+### Number systems
+Number systems use symbols to represent numbers in a compact way.
+
+[Additive number systems](#Additive-number-systems)  
+[Exponents](#Exponents)  
+[Positional number systems](#Positional-number-systems)  
+[Binary numbers](#Binary-numbers)  
+[Boolean logic](#Boolean-logic)
+
+
+<a id="Additive-number-systems"></a>
+#### Additive number systems
+
+The original way of counting, once the obvious limits of counting on fingers was reached, was using *tally marks* or notches on a stick, stone, or piece of clay as symbols each representing a single thing.
+These were added to together to create a *number*, which symbolizes a quantity of things.
+Though this was less limited than using fingers, these marks likewise reached a limit as numbers increased.
+
+The Roman approach to this was to use symbols or *numerals* to count groups, then these numerals were added together to get numbers.
+
+|Number |1 |2 |3 |4 |5 |9 |10 |50 |100 |500 |1000
+|:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:- |:-
+|Roman |I |II |III |IV |V |IX |X |L |C |D |M
+
+Larger numbers could be represented using fewer symbols. 
+This is an example of adding these numberals together.
+
+DCCXIV is 500 + 200 + 10 + 4 or 714.
+
+Very large numbers still need quite a few symbols. 
+Adding numbers is straightforward, but becomes cumbersome.
+Substracting numbers is a little harder, and multiplying and dividing numbers is harder yet.
+
+In India, a new number system, the *Hindu* system, was created that used fewer symbols but could represent large numbers in a more compact way. Some background is needed to discuss this system.
+
+<a id="Positional-number-systems"></a>
+#### Positional number systems
+
+Positional number systems use fewer numerals than additive number systems, 
+but the numerals have different values depending on their *position* in a number.
+The Hindu number system uses the numerals 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. 
+We inherited the number system from the Arabic cultures, and the number system uses Hindu-Arabic numerals or what we call Arabic numerals.
+The number system is called *decimal* because it uses 10 different numerals, each of which we call *digits*.
+We use [*exponents*](./arithmetic.ipynb#Exponents) to show the different powers of 10 multiplied by each digit in different positions, so   
+
+$123 = 100 + 20 + 3 = 1 \cdot 100 + 2 \cdot 10 + 3 \cdot 1 = 1 \cdot 10^2 + 2 \cdot 10^1 + 3 \cdot 10^0$,
+
+|position |3 |2 |1
+|:-|:-|:-|:-
+|digit |1 | 2 | 3
+|multiplier |100 |10 |1
+|using exponents |$10^2$ |$10^1$ |$10^0$ 
+|value |100 |20 |3
+
+To decide what digit goes in a position that has no value, the Hindu system had to invent the idea of a zero, the thing that is nothing and if multiplied by any number gives nothing. 
+The concept of zero was new because it was not used in additive systems. 
+As an example, the value that is 300 + 5 needs zero in the second position to work, so that we have 
+
+digit |3 |0 |5
+|:- |:- |:- |:-
+position |3 |2 |1
+multiplier |100 |10 |1
+value |3 x 100 = 300 |0 x 10 = 0 |5 x 1 = 5
+
+3 x 100 + 0 x 10 + 5 x 1 = 300 + 0 + 5 = 305
+
+In the decimal system, adding numbers is simplified, you add each position separately.
+There are fewer numerals than in the Roman system, so addition is faster.
+For 305 + 262 = 567
+
+position |1 |2 |3
+|:- |:- |:- |:-
+| |3 |0 |5
+|+ |2 |6 |2
+| |--- |--- |---
+| |5 |6 |7
+
+When adding numbers in a position gives more than 9, we introduce the idea of a *carry*.
+For 7 + 35 = 42
+
+|position |1 |2
+|:- |:- |:- 
+|carry |1 |
+| | |7
+|+ |3 |5
+| |--- |--- |---
+| |4 |2
+
+Subtraction, multiplication, and division are similarly simplified.
+
+<a id="Binary-numbers"></a>
+#### Binary numbers
+In the decimal system, we use a base of 10 for the exponents at each numeral position and the digits 0 through 9 for numerals.
+There are as many different digits as the number base.
+There is no reason why we can't use another number for the base, such as 2.
+We call a base 2 number system a *binary* system.
+There are two numerals in a binary system, 0 and 1.
+We can give the value for a binary number 10110, which we show as $10110_2$ to indicate it is base 2, as
+
+digit |1 |0 |1 |1 |0
+:- |:- |:- |:- |:- |:-
+position |5 |4 |3 |2 |1
+multiplier |16 |8 |4 |2 |1
+using exponents |$2^4$ |$2^3$ |$2^2$ |$2^1$ |$2^0$
+position value |16 |0 |4 |2 |0
+
+so the final number is 16 + 0 + 4 + 2 + 0 = 22. 
+We can show decimal 22 as $22_{10}$ to show the number base.
+
+We call each binary numeral a *binary digit* or *bit*.
+Computers are able to represent two values, 0 and 1, well. 
+In electronic circuits 0 corresponds to "no power" or "no voltage" and 1 corresponds to "positive voltage".
+It turns out trying to electrically detect 10 voltage levels for 10 different decimal digits is unreliable.
+
+We can add binary numbers like we do in the decimal system. We add each position separately.
+
+$101_2 + 10_2 = 111_2$
+
+position |1 |2 |3
+|:- |:- |:- |:-
+| |1 |0 |1
+|+ | |1 |0
+| |--- |--- |---
+| |1 |1 |1
+
+When adding binary numbers in a position gives more than 1, we introduce the idea of a *carry*.
+
+$101_2 + 1_2 = 110_2$
+
+|position |1 |2 |3
+|:- |:- |:- |:- 
+|carry | |1 |
+| | 1| 0| 1
+|+ |  | |1
+| |--- |--- |---
+| |1 |1 | 0
+
+Subtraction, multiplication, and division are similarly simplified.
+
+##### Hexadecimal numbers
+
+Using binary numbers can also get tedious.
+A shorthand for binary numbers is using base 16 numbers, or *hexadecimal* numbers.
+Hexadecimal numbers use 16 numerals.
+We can use decimal digits for the first 10, 0 through 9, but we need different numberals for the last 6.
+We use the six letters A through F for them.
+We typically put `0x` in from on the number to show that it is hexademical.
+
+|decimal |binary |hexadecimal
+|:-|:-|:- 
+|0 |$0_2$ |0x0|
+|1 |$1_2$ |0x1 |
+|2 |$10_2$ |0x2 |
+|3 |$11_2$ |0x3 |
+|4 |$100_2$ |0x4 |
+|5 |$101_2$ |0x5 |
+|6 |$110_2$ |0x6 |
+|7 |$111_2$ |0x7 |
+|8 |$1000_2$ |0x8 |
+|9 |$1001_2$ |0x9 |
+|10 |$1010_2$ |0xA |
+|11 |$1011_2$ |0xB |
+|12 |$1100_2$ |0xC |
+|13 |$1101_2$ |0xD |
+|14 |$1110_2$ |0xE |
+|15 |$1111_2$ |0xF |
+
+The number $10110101_2$ is converted to hexadecimal by breaking the number into chunks of 4 bits and converting each to a hexadecimal digit.
+
+`10110101 = 1011 0101 = 0xB5`
+
+##### Fixed binary number storage size
+
+In computers, only a fixed number of bits are allocated for numbers.
+This limits the size of number that can be stored.
+Typically sizes for numbers are 8, 16, 32, or 64 bits.
+The term for an 8 bit number is a *byte*.
+The maximum value for a number for that size is the value of a binary number of that size with all 1 bits.
+The largest number that can be stored in 8 bits is
+
+$11111111_2 = 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255$
+
+This value is $2^8 - 1$. The names and maximum values for different types of numbers of different sizes are given by
+
+|size |bits |bytes |maximum value
+|:- |:- |:- |:- 
+|byte |8 |1 |$2^8 - 1$ |
+|short |16 |1 |$2^{16} - 1$ |
+|int |32 |1 |$2^{32} - 1$ |
+|long |64 |1 |$2^{64} - 1$ |
+
+Numbers being limited by the number of bits requires that programs must anticipate the largest possible value and use a size large enough to store it.
+When a number too large for the number of bits is stored, we say an *overflow* occurs.
+In that case, the bits that cannot be stored are, for example, thrown away and the value is incorrect.
+
+<a id="Boolean-logic"></a>
+#### Boolean logic
+The binary numerals 1 and 0 can conveniently represent truth values, true and false.
+A logic based on these values, *Boolean logic* (invented by mathematician George Boole),
+gives new operations on binary numbers.
+The basic operations are *AND*, *OR*, *NOT*, and *XOR*.
+
+|operation | description |example
+|:- |:- |:-
+|AND |result is true if each operand is true|1 AND 1 = true
+|OR |result is true if either operand is true|0 AND 1 = true
+|NOT |result is the opposite of the operand |NOT 1 = false
+|XOR |result is false if both operands are the same, and true if both are different|1 AND 1 = false
+
+The results of these operations can be shown in *truth tables*.
+This is the truth table for AND.
+
+|AND |1 |0
+|:-|:- |:- 
+|1 |1 | 0
+|0 |0 | 0
+
+This is the truth table for OR.
+
+|OR |1 |0
+|:-|:- |:- 
+|1 |1 | 1
+|0 |1 | 0
+
+This is the truth table for NOT.
+
+|NOT | |
+|:-|:- |
+|1 |0 |
+|0 |1 |
+
+This is the truth table for XOR.
+
+|XOR |1 |0
+|:-|:- |:- 
+|1 |0 | 1
+|0 |1 | 0
+
+These operations are used in operations on binary numbers in programs.
