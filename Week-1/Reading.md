@@ -110,7 +110,7 @@ Division|$\frac{a}{b}\div\frac{c}{d}=\frac{a}{b}\cdot\frac{d}{c}~$|
 #### Factoring
 A number `N` may be a multiple of whole numbers `a`, `b`, `c`, etc.    
 
-$N = a\>\cdot\>b\>\cdot\>c\>\cdot\>\cdots$  
+$N = a\cdot b\cdot c \cdot \cdots$  
 
 The numbers `a`, `b`, `c`, etc. are the *factors* of `N`.
 We say `N` is *evenly divisible* by  `a`, `b`, `c`, etc.
@@ -119,13 +119,13 @@ We say `N` is *evenly divisible* by  `a`, `b`, `c`, etc.
 #### Prime numbers
 A number always at least has two factors, 1 and itself.  
 
-$N = 1\>\cdot\>N$  
+$N = 1 \cdot    N$  
 
 A number that is only evenly divisible by 1 and itself is a *prime number*.
 
 We say that when the factorization of `N` is
 
-$N = a\>\cdot\>b\>\cdot\>c\>\cdot\>\cdots$  
+$N = a\cdot b\cdot c \cdot \cdots$   
 
 if all of `a`, `b`, `c`, etc. are prime, that is the *prime factorization* of `N`.
 
@@ -288,8 +288,8 @@ We can change the equation to solve for a.
 Equation|Rule
 :- |:-
 a - 2 + 2 = 1 + 2|Adding constant 2  
-a - 0 = 2|Identity for subtraction (-2 + 2 = 0)
-a = 2|Identity for subtraction
+a - 0 = 3|Identity for subtraction (-2 + 2 = 0)
+a = 3|Identity for subtraction
 
 We can solve for equations with two variables.
 If we have
