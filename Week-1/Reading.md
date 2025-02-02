@@ -251,17 +251,17 @@ There are a number of rules for equations.
 
 Rule |Example|Note
 :- |:- |:-
-Commutative|a$~$+$~$b$~$=$~$b$~$+$~$a|For addition
-Commutative|a$~\cdot~$b$~$=$~$b$~\cdot~$a|For multiplication
-Association|a$~+~$(b$~+~$c)$~$=$~$(a$~$+$~$b)$~$+$~$c|For addition
-Association|a$~\cdot~$(b$~\cdot~$c)$~$=$~$(a$~\cdot~$b)$~\cdot~$c|For multiplication
+Commutative|a+b=b+a|For addition
+Commutative|a$\cdot$ b=b$\cdot$ a|For multiplication
+Association|a+(b+c)=(a+b)+c|For addition
+Association|a$\cdot$ (b$\cdot$ c)=(a$\cdot$ b)$\cdot$ c|For multiplication
 Identity|a + 0 = a|for addition
 Identity|a - 0 = a|for subtraction
 Identity|a - a = 0|for subtraction
 Identity|-a + a = 0|for subtraction
-Identity|a$~\cdot~$1 = a|for multiplication
-Identity|a$~\div~$1 = a|for division
-Identity|a$~\div~$a = 1|for division
+Identity|a$\cdot$ 1 = a|for multiplication
+Identity|a$\div$ 1 = a|for division
+Identity|a$\div$ a = 1|for division
 
 Note that the Commutative and Association rules do not apply for substraction and division.
 
@@ -271,12 +271,12 @@ Rule| If |Then
 :- |:- |:-
 Adding constants|a = b|a + c = b + c|
 Subtracting constants|a = b|a - c = b - c|
-Multiplying by constants|a = b|a$~\cdot~$c$~$=$~$b$~\cdot~$c|
-Dividing by constants|a = b|a$~\div~$c$~$=$~$b$~\div~$c|
+Multiplying by constants|a = b|a$\cdot$ c=b$\cdot$ c|
+Dividing by constants|a = b|a$\div$ c=b$\div$ c|
 Inverse of adding|a = b + c|a - c = b|
 Inverse of subtracting|a = b - c|a + c = b|
-Inverse of multiplying|a = b$~\cdot~$c|a$~\div~$c = b|
-Inverse of dividing|a = b$~\div~$c|a$~\cdot~$c = b|
+Inverse of multiplying|a = b$\cdot$ c|a$\div$ c = b|
+Inverse of dividing|a = b$\div$ c|a$\cdot$ c = b|
 
 We can use these rules to find the value of a variable in an equation.
 In the equation
