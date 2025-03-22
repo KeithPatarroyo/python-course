@@ -22,21 +22,21 @@ Beginner's programming course covering the fundamental logic of programming, the
 
 ### Programming Foundations(~1 Month)
 
-- [Chapter 1: Introduction](https://github.com/KeithPatarroyo/python-course/blob/main/Week-1/Lecture-1.ipynb)
-- [Chapter 2: Variables, Built-in Functions & Operators](https://github.com/KeithPatarroyo/python-course/blob/main/Week-1/Lecture-2.ipynb)
+- [Chapter 1: Introduction](Week-1/Lecture-1.ipynb)
+- [Chapter 2: Variables, Built-in Functions & Operators](Week-1/Lecture-2.ipynb)
 - [Chapter 3: Strings](Week-2/Lecture-3.ipynb)
-- [Chapter 4: List & Tuples](#chapter4)
-- [Chapter 5: Dictionaries & Sets](#chapter5)
-- [Chapter 6: Conditionals](#chapter6)
-- [Chapter 7: Loops](#chapter7)
-- [Chapter 8: Functions & Recursions](#chapter7)
+- [Chapter 4: List & Tuples](Week-2/Lecture-4.ipynb)
+- [Chapter 5: Dictionaries & Sets](Week-3/Lecture-5.ipynb)
+- [Chapter 6: Conditionals](Week-3/Lecture-6.ipynb)
+- [Chapter 7: Loops](Week-4/Lecture-7.ipynb)
+- [Chapter 8: Functions & Recursions](Week-4/Lecture-8.ipynb)
 - Exam 1
 
 ### Python Tools and Scientific Libraries(~1 Month)
 
-- [Chapter 9: File I/O](#chapter9)
-- [Chapter 10: Object-Oriented Programming](#chapter10)
-- [Chapter 11: Exception Handling](#chapter11)
+- [Chapter 9: File I/O](Week-5/Lecture-9.ipynb)
+- [Chapter 10: Object-Oriented Programming](Week-6/Lecture-10.ipynb)
+- [Chapter 11: Exception Handling](Week-6/Lecture-11.ipynb)
 - [Chapter 12: Matplotlib-Graph Plotting](#chapter12)
 - [Chapter 13: Pandas-Data Science](#chapter13)
 - [Chapter 14: Numpy & Scipy-Numerical Computing](#chapter14)
