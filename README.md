@@ -37,9 +37,9 @@ Beginner's programming course covering the fundamental logic of programming, the
 - [Chapter 9: File I/O](Week-5/Lecture-9.ipynb)
 - [Chapter 10: Object-Oriented Programming](Week-6/Lecture-9.ipynb)
 - [Chapter 11: Exception Handling](Week-6/Lecture-11.ipynb)
-- [Chapter 12: Matplotlib-Graph Plotting](#chapter12)
-- [Chapter 13: Pandas-Data Science](#chapter13)
-- [Chapter 14: Numpy & Scipy-Numerical Computing](#chapter14)
+- [Chapter 12: Pandas-Data Science](#chapter12)
+- [Chapter 13: Numpy & Scipy-Numerical Computing](#chapter13)
+- [Chapter 14: Matplotlib-Graph Plotting](#chapter14)
 - Exam 2
 
 ### Special Topics(~1 Month)
@@ -64,8 +64,8 @@ Beginner's programming course covering the fundamental logic of programming, the
 
 There is a problem set every week. It is given on Thursday, with a deadline the following Thursday.
 
-- [Problem set 1](Week-1/problem-set.ipynb)
-- [Problem set 2](Week-2/problem-set-W2.ipynb)
+- [Problem set 1](Week-1/problem-set.ipynb)  Grade: 105%
+- [Problem set 2](Week-2/problem-set-W2.ipynb) Grade: 105%
 - [Problem set 3](Week-3/problem-set-W3.ipynb)
 - [Problem set 4](Week-4/problem-set-W4.ipynb)
 - [Problem set 5](Week-6/problem-set-W5.ipynb)
@@ -73,6 +73,8 @@ There is a problem set every week. It is given on Thursday, with a deadline the 
 ## Exams
 
 Three exams, one after each module ends.
+
+- Exam 1: 92%
 
 ## Grading
 
