@@ -64,6 +64,11 @@ Beginner's programming course covering the fundamental logic of programming, the
 
 There is a problem set every week. It is given on Thursday, with a deadline the following Thursday.
 
+- [Problem set 1](Week-1/problem-set.ipynb)
+- [Problem set 2](Week-2/problem-set-W2.ipynb)
+- [Problem set 3](Week-3/problem-set-W3.ipynb)
+- [Problem set 4](Week-4/problem-set-W4.ipynb)
+- [Problem set 5](Week-5/problem-set-W5.ipynb)
 
 ## Exams
 
