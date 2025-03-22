@@ -22,9 +22,9 @@ Beginner's programming course covering the fundamental logic of programming, the
 
 ### Programming Foundations(~1 Month)
 
-- [Chapter 1: Introduction](#chapter1)
-- [Chapter 2: Variables, Built-in Functions & Operators](#chapter2)
-- [Chapter 3: Strings](#chapter3)
+- [Chapter 1: Introduction](https://github.com/KeithPatarroyo/python-course/blob/main/Week-1/Lecture-1.ipynb)
+- [Chapter 2: Variables, Built-in Functions & Operators](https://github.com/KeithPatarroyo/python-course/blob/main/Week-1/Lecture-2.ipynb)
+- [Chapter 3: Strings](Week-2/Lecture-3.ipynb)
 - [Chapter 4: List & Tuples](#chapter4)
 - [Chapter 5: Dictionaries & Sets](#chapter5)
 - [Chapter 6: Conditionals](#chapter6)
