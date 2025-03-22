@@ -35,7 +35,7 @@ Beginner's programming course covering the fundamental logic of programming, the
 ### Python Tools and Scientific Libraries(~1 Month)
 
 - [Chapter 9: File I/O](Week-5/Lecture-9.ipynb)
-- [Chapter 10: Object-Oriented Programming](Week-6/Lecture-10.ipynb)
+- [Chapter 10: Object-Oriented Programming](Week-6/Lecture-9.ipynb)
 - [Chapter 11: Exception Handling](Week-6/Lecture-11.ipynb)
 - [Chapter 12: Matplotlib-Graph Plotting](#chapter12)
 - [Chapter 13: Pandas-Data Science](#chapter13)
@@ -68,7 +68,7 @@ There is a problem set every week. It is given on Thursday, with a deadline the 
 - [Problem set 2](Week-2/problem-set-W2.ipynb)
 - [Problem set 3](Week-3/problem-set-W3.ipynb)
 - [Problem set 4](Week-4/problem-set-W4.ipynb)
-- [Problem set 5](Week-5/problem-set-W5.ipynb)
+- [Problem set 5](Week-6/problem-set-W5.ipynb)
 
 ## Exams
 
