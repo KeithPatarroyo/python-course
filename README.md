@@ -22,24 +22,24 @@ Beginner's programming course covering the fundamental logic of programming, the
 
 ### Programming Foundations(~1 Month)
 
-- [Chapter 1: Introduction](#chapter1)
-- [Chapter 2: Variables, Built-in Functions & Operators](#chapter2)
-- [Chapter 3: Strings](#chapter3)
-- [Chapter 4: List & Tuples](#chapter4)
-- [Chapter 5: Dictionaries & Sets](#chapter5)
-- [Chapter 6: Conditionals](#chapter6)
-- [Chapter 7: Loops](#chapter7)
-- [Chapter 8: Functions & Recursions](#chapter7)
+- [Chapter 1: Introduction](Week-1/Lecture-1.ipynb)
+- [Chapter 2: Variables, Built-in Functions & Operators](Week-1/Lecture-2.ipynb)
+- [Chapter 3: Strings](Week-2/Lecture-3.ipynb)
+- [Chapter 4: List & Tuples](Week-2/Lecture-4.ipynb)
+- [Chapter 5: Dictionaries & Sets](Week-3/Lecture-5.ipynb)
+- [Chapter 6: Conditionals](Week-3/Lecture-6.ipynb)
+- [Chapter 7: Loops](Week-4/Lecture-7.ipynb)
+- [Chapter 8: Functions & Recursions](Week-4/Lecture-8.ipynb)
 - Exam 1
 
 ### Python Tools and Scientific Libraries(~1 Month)
 
-- [Chapter 9: File I/O](#chapter9)
-- [Chapter 10: Object-Oriented Programming](#chapter10)
-- [Chapter 11: Exception Handling](#chapter11)
-- [Chapter 12: Matplotlib-Graph Plotting](#chapter12)
-- [Chapter 13: Pandas-Data Science](#chapter13)
-- [Chapter 14: Numpy & Scipy-Numerical Computing](#chapter14)
+- [Chapter 9: File I/O](Week-5/Lecture-9.ipynb)
+- [Chapter 10: Object-Oriented Programming](Week-6/Lecture-9.ipynb)
+- [Chapter 11: Exception Handling](Week-6/Lecture-11.ipynb)
+- [Chapter 12: Pandas-Data Science](#chapter12)
+- [Chapter 13: Numpy & Scipy-Numerical Computing](#chapter13)
+- [Chapter 14: Matplotlib-Graph Plotting](#chapter14)
 - Exam 2
 
 ### Special Topics(~1 Month)
@@ -64,10 +64,17 @@ Beginner's programming course covering the fundamental logic of programming, the
 
 There is a problem set every week. It is given on Thursday, with a deadline the following Thursday.
 
+- [Problem set 1](Week-1/problem-set.ipynb)  Grade: 105%
+- [Problem set 2](Week-2/problem-set-W2.ipynb) Grade: 105%
+- [Problem set 3](Week-3/problem-set-W3.ipynb)
+- [Problem set 4](Week-4/problem-set-W4.ipynb)
+- [Problem set 5](Week-6/problem-set-W5.ipynb)
 
 ## Exams
 
 Three exams, one after each module ends.
+
+- Exam 1: 92%
 
 ## Grading
 
