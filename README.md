@@ -4,15 +4,18 @@ Welcome to the KF Python Course
 
 ## Table of Contents
 
-- [Introduction](#the-ultimate-python-course)
-- [Course Contents](#course-contents)
-    - [Programming Foundations](#foundations)
-    - [Python Tools and Scientific Libraries](#python)
-    - [Special Topics](#special)
-- [Problem Sets](#problem-sets)
-- [Exams](#exams)
-- [Grading](#grading)
-- [External Material](#external-material)
+- [KF Python-Course](#kf-python-course)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Course Contents](#course-contents)
+    - [Programming Foundations(~1 Month)](#programming-foundations1-month)
+    - [Python Tools and Scientific Libraries(~1 Month)](#python-tools-and-scientific-libraries1-month)
+    - [Special Topics(~1 Month)](#special-topics1-month)
+      - [Student Choice](#student-choice)
+  - [Problem Sets](#problem-sets)
+  - [Exams](#exams)
+  - [Grading](#grading)
+  - [External Material](#external-material)
 
 ## Introduction
 
@@ -35,10 +38,10 @@ Beginner's programming course covering the fundamental logic of programming, the
 ### Python Tools and Scientific Libraries(~1 Month)
 
 - [Chapter 9: File I/O](Week-5/Lecture-9.ipynb)
-- [Chapter 10: Object-Oriented Programming](Week-6/Lecture-9.ipynb)
+- [Chapter 10: Object-Oriented Programming](Week-5/Lecture-10.ipynb)
 - [Chapter 11: Exception Handling](Week-6/Lecture-11.ipynb)
-- [Chapter 12: Pandas-Data Science](#chapter12)
-- [Chapter 13: Numpy & Scipy-Numerical Computing](#chapter13)
+- [Chapter 12: Pandas-Data Science](Week-6/Lecture-12.ipynb)
+- [Chapter 13: Numpy & Scipy-Numerical Computing](Week-7/Lecture-13.ipynb)
 - [Chapter 14: Matplotlib-Graph Plotting](#chapter14)
 - Exam 2
 
@@ -69,6 +72,7 @@ There is a problem set every week. It is given on Thursday, with a deadline the 
 - [Problem set 3](Week-3/problem-set-W3.ipynb)
 - [Problem set 4](Week-4/problem-set-W4.ipynb)
 - [Problem set 5](Week-6/problem-set-W5.ipynb)
+- [Problem set 6](Week-7/problem-set-W6.ipynb)
 
 ## Exams
 
